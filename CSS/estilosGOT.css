@@ -1,8 +1,5 @@
 body{
-    background-image: url('https://static.sorozatjunkie.hu/wp-content/uploads/2018/06/gameofthrones.jpg');
-    background-repeat: no-repeat;
-    background-position:bottom;
-    background-size: cover;
+    background-color: azure;
     font-family: 'Roboto', sans-serif;
 }
 
