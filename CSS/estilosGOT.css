@@ -1,0 +1,53 @@
+body{
+    background-image: url('https://static.sorozatjunkie.hu/wp-content/uploads/2018/06/gameofthrones.jpg');
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-title {
+    font-family: 'Roboto', sans-serif;
+    color: black; 
+    font-size: 3em; 
+    text-align: center;
+    margin-top: 20px; 
+}
+    
+.subtitle {
+    font-family: 'Roboto', sans-serif;
+    color: black; 
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px; 
+}
+
+.parrafo1, .parrafo2, .parrafo3, .parrafo4, .parrafo5, .parrafo6{
+    font-size: 1.2em; 
+    color: black; 
+    text-align: justify;
+    font-family:'Roboto', sans-serif;
+}
+
+.GOT-image{
+    width: 300px; 
+    height: 150px; ; 
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    color: black; 
+    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 10px; 
+}
+
+#stannis{
+    width: 250px;  
+    height: auto;
+    display: block; 
+    margin: 0 auto;
+}
