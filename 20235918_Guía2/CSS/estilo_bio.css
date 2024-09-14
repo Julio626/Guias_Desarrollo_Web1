@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+
+    background-color: white;
+}
+  
+div.wrapper{
+    margin: 0 auto;
+    width: 80%;
+}
+
+section article p{
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.imagenBio {
+    width: 80%; 
+    max-width: 500px; 
+    height: 500px;
+    display: block; 
+    margin: 0 auto; 
+}
+
+nav span a:hover{
+    background-color: lightblue;
+}
+
+nav span a{
+    background-color: rgb(107, 145, 198);
+    border: 1px solid;
+    color: black;
+    font-size: 0.8rem;
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.imagenBio1 {
+    width: 40%; 
+    max-width: 500px; 
+    height: 500px;
+    margin-right: 10px;
+
+}
+
+.imagenBio2 {
+    width: 40%; 
+    max-width: 500px; 
+    height: 500px;
+    margin-left: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.imagenAlterada {
+    width: 80%; 
+    max-width: 400px; 
+    height: 400px;
+    display: block; 
+    margin: 0 auto; 
+}
+
+section article{
+    background-color: rgb(107, 145, 198);
+    margin-top: 20px;
+    padding: 12px;
+}
+
+header{
+    background-color: rgb(107, 145, 198);
+    width: 93%;
+    color: black;
+    font-weight: bold;
+    padding: 10px 50px;
+    text-align: center;
+    
+}
+
+footer{
+    background-color: rgb(107, 145, 198);
+    color: black;
+    font-size: 1rem;
+    margin-top: 20px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+a[href="https://www.facebook.com/profile.php?id=100043685954290&locale=es_LA"]{text-decoration-line: none;}
