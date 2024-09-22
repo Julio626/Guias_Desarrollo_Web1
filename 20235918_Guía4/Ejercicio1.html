@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+    </head>
+    <body id=login>
+    <form action="Ejercicio2.html" method="post">
+        <h1>Crear Cuenta</h1>
+        <fieldset id="logindatos">
+            <input type=image src="Recursos guia 4/img/user.png" class="img">
+            <br>
+            <input type="text" id="nombre" value="" pattern="^[a-z-Z\s]+$"
+            title="Solo se acepta letras" class="control" placeholder="Nombre"
+            required/>
+            <br>
+            <input type=image src="Recursos guia 4/img/tel.png" class="img">
+            <input type="tel" id="telefono" value="" pattern="^[0-9]{4}-?[0-9]{4}$"
+            title="Solo acepta numeros en este formato: 2222-2222" class="control" placeholder="Número de telefono"
+            required/>
+            <br>
+        </fieldset>
+    </form>   
+    </body>
+</html>

@@ -1,0 +1,36 @@
+#diez_de_diamantes, #sota_de_diamantes, #reina_de_diamantes, #rey_de_diamantes, #as_de_diamantes{
+    position: absolute;
+    width: 100px;
+    padding: 100px;
+}
+
+#diez_de_diamantes{
+    z-index: 1;
+    top: 10px;
+    left: 10px;
+}
+
+#sota_de_diamantes{
+    z-index: 2;
+    top:20px;
+    left:20px;
+}
+
+#reina_de_diamantes{
+    z-index: 3;
+    top: 30px;
+    left: 30px;
+}
+#rey_de_diamantes{
+    z-index: 4;
+    top: 40px;
+    left: 40px;
+}
+
+#as_de_diamantes{
+    z-index: 5;
+    top: 50px;
+    left: 50px;
+}
+
+
