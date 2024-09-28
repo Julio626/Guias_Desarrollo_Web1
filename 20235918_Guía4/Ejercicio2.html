@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../20235918_Guía4/Recursos guia 4/css/estilo.css">
+</head>
+<body class="formdatos">
+    <form action="ejercicio3.html" method="post">
+        <img src="/Recursos guia 4/img/foto-perfil.jpg" alt="Foto de perfil"><h1>Perfil</h1>
+
+        <fieldset id="datos">
+        </fieldset>
+            <legend>Datos</legend>
+            <TABLE border="0">
+            <tr><td>fecha de nacimiento:</td><td><input type="date" name="apellido"/></td></tr>
+            <tr><td>Ingrese su foto:</td><td><input type="file" name="foto"/></td></tr>
+            <tr><td>Nacionalidad:</td>
+                <td>
+                <input type="text" list="nacionalidad"/>
+                <datalist id="nacionalidad">
+                <option value="Salvadoreño">Salvadoreño(a)</option>
+                <option value="Hondureño">Hondureño(a)</option>
+                <option value="Guatemalteco">Gutemalteco(a)</option>
+                <option value="Costarricense">Costarricense(a)</option>
+                <option value="Nicaraguese">Nicarag&uuml;ense(a)</option>
+                <option value="Panameño">Panameño(a)</option>
+                </option>  
+                </datalist>
+                </td></tr>
+            <tr><td>Color favorito:</td><td><input type="color" name="color"></td></tr>
+            <tr><td>Sexo:</td>
+            <td><input type="radio" name="sexo" value="mas"checked>Masculino<br>
+            <input type="radio" name="sexo" value="fem"checked>Femenino</td></tr>
+            <tr><td>Edad:</td><td><input type="number" name="Edad" min="18" max="50"/></td></tr>
+            <tr><td>Direcci&oacute;n:</td><td><textarea rows="5" cols="30"></textarea></td></tr>
+            </TABLE> 
+        <fieldset id="temas">
+        </fieldset>
+
+        <fieldset id="aficiones">
+        </fieldset>
+        <button class="boton" type="submit">Enviar Información</button>
+    </form>
+</body>
+</html>
