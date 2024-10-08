@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    margin: 0 auto;
+    width: 80%;
+}
+
+section h3{
+    text-align: justify;
+    font-family: 'Roboto Serif', serif;
+    font-size: 18px;
+}
+
+section h4{
+    text-align: justify;
+    font-family: 'Roboto Serif', serif;
+    font-size: 16px;
+
+}
+
+section p{
+    text-align: justify;
+    font-family: 'Roboto Serif', serif;
+    font-size: 14px;
+    width: 100%;
+}
+
+footer {
+    background-color: #03224A;
+    color: white;
+    text-transform: uppercase;
+    padding: 1%;
+    display: flex block;
+    justify-content: center;
+    justify-items: center;
+    position: static;
+    bottom: 0%;
+    clear: both;
+}
+
+@media screen and (max-width: 480px){
+
+    html{
+        font-size: 14px;
+    }
+
+    div{
+        width: 95%;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width:768px){
+    
+    html{
+        font-size: 15px;
+    }
+
+    div{
+        width: 80%;
+    }
+
+}
+@media screen and (min-width:770px){
+    html{
+        font-size: 16px;
+    }
+
+    div{
+        width: 100%;
+    }
+
+}
