@@ -6,7 +6,7 @@ const buttonAddElemento = document.getElementById("idBtnAddElement");
 
 const cmbElemento = document.getElementById("idCmbElemento");
 
-const tituloElemento = document.getElementById("idTitulo Elemento");
+const tituloElemento = document.getElementById("idTituloElemento");
 
 const nombreElemento = document.getElementById("idNombreElemento");
 
@@ -121,6 +121,8 @@ buttonCrear.onclick = () => {
     vericarTipoElemento();
 };
 
+const IdRepetido = new Set();
+
 buttonAddElemento.onclick = () => {
     if (nombreElemento.value != "" && tituloElemento.value != "") {
         let elemento = cmbElemento.value;
@@ -132,6 +134,14 @@ buttonAddElemento.onclick = () => {
         } else {
             newInput(elemento);
         }
+
+        if (IdRepetido.has(`id${nombreElemento.value}`)){
+            alert("ID repetido. Por favor, asigne otro ID")
+            return;
+        } else{
+            IdRepetido.add(`id${nombreElemento.value}`)
+        }
+
     } else {
         alert("Faltan campos por completar");
     }
