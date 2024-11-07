@@ -8,7 +8,7 @@ const validacionForm = () => {
 
     const nombreElemento = document.getElementById("IdNombre");
     const apellidoElemento = document.getElementById("IdApellidos");
-    const fechaNacElemento = new Date(document.getElementById("idFechaNac"));
+    const fechaNacElemento = new Date(document.getElementById("idFechaNac").value);
     const correoElemento = document.getElementById("IdCorreo");
     const contrasenaElemento = document.getElementById("IdPassword");
     const contrasenaRepetirElemento = document.getElementById("IdPasswordRepetir"); 
@@ -90,6 +90,7 @@ button.onclick = () => {
     }
 };
 
+/*
 const recorrerFormulario = function () {
 
     let totText = 0;
@@ -162,3 +163,4 @@ const recorrerFormulario = function () {
 button.onclick = () => {
     recorrerFormulario();
 };
+*/
