@@ -12,7 +12,7 @@ const validacionForm = () => {
     const correoElemento = document.getElementById("IdCorreo");
     const contrasenaElemento = document.getElementById("IdPassword");
     const contrasenaRepetirElemento = document.getElementById("IdPasswordRepetir"); 
-    const intereses = [formulario["idCkProgramacion"].checked, formulario["idCkProgramacion"].checked, formulario["idCkProgramacion"].checked, formulario["idCkProgramacion"].checked]
+    const intereses = [formulario["idCkProgramacion"].checked, formulario["idCkBD"].checked, formulario["idCkRedes"].checked, formulario["idCkSeguridad"].checked]
     const pais = formulario["idCmPais"].value;
     const carrera = formulario.querySelector(`input[name=idRdCarrera]:checked`);
 
